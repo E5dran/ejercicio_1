@@ -18,3 +18,34 @@ article {
     width: 33.333%;
     margin: 1%;
 }
+
+header {
+    background-color: beige;
+    padding: 20px;
+}
+
+header .footer {
+    /* Para cualquier divisor que tenga un ancho, el margin lo centra */
+    max-width: 1004px;
+    margin: 0 auto;
+
+    /* para organizar un contenedor uno al lado del otro*/
+    display: flex;
+
+    /* para mandar uno a cada lado del contenedor de forma proporcional*/
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+}
+
+header .menu li {
+    display: inline-block;
+}
+
+header .menu li a {
+    padding: 10px;
+    display: block;
+    margin-right: 10px;
+}
